@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "560815508655",
+    "firebase_url": "https://pushme-528f8.firebaseio.com",
+    "project_id": "pushme-528f8",
+    "storage_bucket": "pushme-528f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560815508655:android:9256359a9a08f57b",
+        "android_client_info": {
+          "package_name": "com.keerushar.pushme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "560815508655-9b82t1db4maucf9k0mkvaa5be3k94uf5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwUa7zWPJJiW-ua8yufM6FWL6q7HbgfgA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

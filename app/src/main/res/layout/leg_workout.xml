@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/textvie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Leg Workout"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#0e34b1"
+                android:layout_marginLeft="12dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1/6.Wall sit"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#111112"
+                    android:layout_marginLeft="12dp"/>
+
+                <ImageButton
+                    android:id="@+id/wallsit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_iconfinder_video_216502"
+                    android:layout_marginLeft="180dp"/>
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/wallsit"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wallsit"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_marginLeft="12dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/textview3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2/6.Bridge"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#111112"
+                    android:layout_marginLeft="12dp"/>
+
+                <ImageButton
+                    android:id="@+id/bridge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_iconfinder_video_216502"
+                    android:layout_marginLeft="190dp"/>
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bridges"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bridge"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_marginLeft="12dp"/>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/textview5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3/6.Step up onto chair"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#111112"
+                    android:layout_marginLeft="12dp"/>
+
+                <ImageButton
+                    android:id="@+id/situponchair"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_iconfinder_video_216502"
+                    android:layout_marginLeft="100dp"/>
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stepup"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/textview4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stepup"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_marginLeft="12dp"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/textview6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4/6.Lunges"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#111112"
+                    android:layout_marginLeft="12dp"/>
+
+                <ImageButton
+                    android:id="@+id/lunges"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_iconfinder_video_216502"
+                    android:layout_marginLeft="180dp"/>
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lunges"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/textview7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lunges"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_marginLeft="12dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/textview9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5/6.Squats"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#111112"
+                    android:layout_marginLeft="12dp"/>
+
+                <ImageButton
+                    android:id="@+id/squats"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_iconfinder_video_216502"
+                    android:layout_marginLeft="180dp"/>
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/squat"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/textview8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/squats"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_marginLeft="12dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/textview10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6/7.Calf raises"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#111112"
+                    android:layout_marginLeft="12dp"/>
+
+                <ImageButton
+                    android:id="@+id/calfraises"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_iconfinder_video_216502"
+                    android:layout_marginLeft="150dp"/>
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/calf_raises"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/textview11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/calf_rises"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_marginLeft="12dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/textview13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7/7.Pile squats"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#111112"
+                    android:layout_marginLeft="12dp"/>
+
+                <ImageButton
+                    android:id="@+id/pilesquats"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_iconfinder_video_216502"
+                    android:layout_marginLeft="150dp"/>
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pile_squats"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/textview12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pile_squats"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_marginLeft="12dp"/>
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

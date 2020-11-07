@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homepage"
+        android:icon="@drawable/ic_homepage_bottom"
+        android:title="Home"/>
+    <item
+        android:id="@+id/health"
+        android:icon="@drawable/ic_health_bottom"
+        android:title="Health"/>
+    <item
+        android:id="@+id/calender"
+        android:icon="@drawable/ic_calender_bottom"
+        android:title="Calender"/>
+
+    <item
+        android:id="@+id/work"
+        android:icon="@drawable/ic_workout_bottom"
+        android:title="Workout"/>
+    <item
+        android:id="@+id/noti"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Notification"/>
+</menu>

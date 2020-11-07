@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/textvie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abs workout"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#0e34b1"
+                android:layout_marginLeft="12dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1/7.Crunches"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#111112"
+                    android:layout_marginLeft="12dp"/>
+
+                <ImageButton
+                    android:id="@+id/crunch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_iconfinder_video_216502"
+                    android:layout_marginLeft="180dp"/>
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/crunches"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/crunches"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_marginLeft="12dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/textview3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2/7.Planks"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#111112"
+                    android:layout_marginLeft="12dp"/>
+
+                <ImageButton
+                    android:id="@+id/plank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_iconfinder_video_216502"
+                    android:layout_marginLeft="200dp"/>
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sideplank"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/plank"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_marginLeft="12dp"/>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/textview5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3/7.One leg pushup"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#111112"
+                    android:layout_marginLeft="12dp"/>
+
+                <ImageButton
+                    android:id="@+id/oneleg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_iconfinder_video_216502"
+                    android:layout_marginLeft="130dp"/>
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/one_leg_pushup"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/textview4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/one_leg_pushup"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_marginLeft="12dp"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/textview6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4/7.Russian twist"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#111112"
+                    android:layout_marginLeft="12dp"/>
+
+                <ImageButton
+                    android:id="@+id/russiantwist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_iconfinder_video_216502"
+                    android:layout_marginLeft="130dp"/>
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/russian_twist"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/textview7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/russian_twist"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_marginLeft="12dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/textview9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5/7.Burpees"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#111112"
+                    android:layout_marginLeft="12dp"/>
+
+                <ImageButton
+                    android:id="@+id/burpees"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_iconfinder_video_216502"
+                    android:layout_marginLeft="180dp"/>
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/burpees"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/textview8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/burpees"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_marginLeft="12dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/textview10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6/7.Sit-up"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#111112"
+                    android:layout_marginLeft="12dp"/>
+
+                <ImageButton
+                    android:id="@+id/sit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_iconfinder_video_216502"
+                    android:layout_marginLeft="190dp"/>
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/crunches"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/textview11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/crunches"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_marginLeft="12dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/textview13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7/7.Reverse Crunch"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#111112"
+                    android:layout_marginLeft="12dp"/>
+
+                <ImageButton
+                    android:id="@+id/reverse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_iconfinder_video_216502"
+                    android:layout_marginLeft="130dp"/>
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/reverse_crunch"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/textview12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reverse_crunches"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_marginLeft="12dp"/>
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

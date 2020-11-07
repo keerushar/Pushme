@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">push me</string>
+
+    <string name="benefits">This app workout actually push you and build your confidence level doing in small area .It is a fast and efficient way to lose
+        weight and fat because resistance training contributes significantly to fat burned during a workout.
+    </string>
+    <string name="workout_defn">Workout is a session of vigorous physical exercise or training. It is a practice  to test or improve ones fitness for athletic competition, ability, or performance. It is 25 percent perspiration and 75 percent determination.  It is one part physical exertion and three parts self-discipline. Doing it is easy once you get started.</string>
+
+    <string name="jumping_jacks">Start with your finger together and your arms by your sides then jump up with your feet apart and your hands overhead .
+        Return to the start position then do the next rep. This exercise provides a full body workout and works all your large muscle groups.</string>
+
+
+    <string name="push_up">Lay prone on the ground with arms supporting your body. 
+        Keep your body straight while raising and lowering your body with your arms . This exercise works the chest,shoulders ,triceps,back and legs. 
+    </string>
+
+    <string name="lunges">Stand with your feet shoulder width apart and your hands on your hips .Take a step forward with your right leg and lower your body until your right thigh is parallel with the floor .Then return and switch to the other leg .
+        This exercise strengthens the quadriceps,gluteus maximus and hamstrings
+    </string>
+    <string name="plank">
+        Lie on the floor with your toes and forearms on the ground. Keep your body straight and hold this position as long asyou can .
+        This exercise strengthens the abdomen,back and shoulders.
+    </string>
+
+    <string name="wallsit">Start with your back against the wall, then slide down until your knees are at a 90 degrees angle. Keep yourback against the wall with your hands and arms away from your legs.Hold the position.
+        The exercise is to strengthen the quadriceps muscles.
+    </string>
+    <string name="squats">Stand with your feet shoulder width apart and your arms stretches forward, then lower your body until your thighs are parallel with the floor. Your knees should be extended in the same direction as your toes.Return to the start position and do the next rep. This works the thighs ,hips buttocks,quads,hamstrings and lower body.
+</string>
+    <string name="tricep_dip">
+        Sit on edge of a chair with hands on edge of seat, fingers forward ,legs extended and feet flexed. Use arms to life yourself off chair. Bend elbows,lowering body until upper arms are almost parallel to floor, hips directly under shoulders. Push through hands to rise back up for 1 rep.
+    </string>
+
+    <string name="reverse_crunches">
+           Lie on your back with your knees up at a 90 degree angle and your hands behind your head. Lift your upper body and thighs, and stretch out.Repeat.
+    </string>
+    <string name="bridge">
+        Lie flat on the floor, and lift your hips off the floor while keeping your back straight. Hold this position as long as you can. The bfidge exercise strengthens the whole abdomen, the lower back and the glutes.
+    </string>
+    <string name="burpees">
+        Squat and place your hands on the floor. Jump feet back into a plank position. Drop to a push-up.Jump feet into a squat . Jump, up reaching your hands overhead.
+
+    </string>
+    <string name="pile_squats">
+        Stands with your hands on your hips and feet a little wider than shoulder width apart. Then lower your body until your thighs are parallel to the floor.
+        Your knees should be extended in the same direction as your tiptoes.
+    </string>
+    <string name="diamond_pushup">
+        Start on all fours with your knees under your butt and your hands your shoulders. Make a diamond shape wiwth your forefingers and thumbs together
+        directly under your face, then push your body up and down. Remember to keep your body straight.
+    </string>
+    <string name="calf_rises">
+        Stand up straight,then push through the balls of your feet and raise heel until you are standing on your toes. Then lower slowly back to the start .Repeat.
+    </string>
+    <string name="arm_rises">
+        Stand with your feet shoulder width apart. Raise your arm in front of you, then put them down. Repeat the exercise.Keep your arms straight during the exercise.
+    </string>
+    <string name="punches">
+        Stand with your legs shoulder width apart and your knees bent slightly. Bend your elbows and clench your fists in front of your face. Extend on arm forward with the palm facing the floor. Take the arm back and repeat with the other arm.
+    </string>
+
+    <string name="shoulder_stretch">
+        Place one arm across your body, parallel to the ground, then use the other arm to pull the parallel arm toward your chest. Hold for a
+        while ,switch arms and repeat the exercise. Keep the inside arm straight during the exercise.
+    </string>
+
+    <string name="one_leg_pushup">
+        Start in a classic push-up position cut lift one leg up. Then do a few push-ups and switch to the other leg. This works on your lower-abdominal muscles.
+    </string>
+    <string name="russian_twist">
+        Sit on the floor with your knees bent , feet lifted a little bit and back tilted backwards. Then hold your hands together and twist from side to side.
+    </string>
+
+    <string name="crunches">
+       Lie on your back with your knees bent and feet flat on the floor, hip-width apart. Place your hands behind your head so your thumbs are behind your ears.
+        Don’t lace your fingers together.Hold your elbows out to the sides but rounded slightly in.Tilt your chin slightly, leaving a few inches of space between your chin and your chest.
+        Gently pull your abdominals inward. Curl up and forward so that your head, neck, and shoulder blades lift off the floor. Hold for a moment at the top of the movement and then lower slowly back down.
+    </string>
+
+    <string name="stepup">
+        Stand in front of a chair. Then step up on the chair and step back down. The exercise works to strengthen the legs and buttocks.
+    </string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

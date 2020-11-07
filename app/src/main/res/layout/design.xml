@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+   <LinearLayout
+       android:id="@+id/top"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:background="@drawable/bottom_layer">
+
+       <com.keerushar.pushme.custom_textview
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Pushme"
+           android:typeface="monospace"
+           android:layout_marginLeft="20dp"
+           android:padding="5dp"
+           android:textColor="#000"
+           android:textSize="25dp"/>
+
+   </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+    android:id="@+id/viewpager"
+        android:layout_below="@+id/top"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginBottom="8dp"
+    android:layout_margin="15dp">
+
+
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/sliderdots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/viewpager"
+        android:gravity="center">
+    </LinearLayout>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fab_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="72dp"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentRight="true"
+        app:menu_openDirection="up"
+        app:menu_colorNormal="#6b7bf1"
+        app:menu_backgroundColor="@android:color/transparent"
+        app:menu_showShadow="true">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_label="Add notification"
+            app:fab_size="mini"
+            android:src="@drawable/ic_notifications_black_24dp"
+            />
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_label="Add an event"
+            app:fab_size="mini"
+            android:src="@drawable/ic_web_black_24dp"
+            />
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_label="Notes"
+            app:fab_size="mini"
+            android:src="@drawable/ic_if_compose_1055085"
+            />
+    </com.github.clans.fab.FloatingActionMenu>
+
+    <include layout="@layout/bottom_navigate"/>
+</RelativeLayout>
